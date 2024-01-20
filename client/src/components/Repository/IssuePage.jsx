@@ -195,7 +195,7 @@ const IssuePage = () => {
         <div className="w-screen h-[50vh]">
           <div className="w-11/12 mx-auto text-center">
             <h1>
-              Fetching repository data <span className="loading loading-dots loading-lg"></span>
+              Fetching issue data <span className="loading loading-dots loading-lg"></span>
             </h1>
           </div>
         </div>
