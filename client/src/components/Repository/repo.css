@@ -1,0 +1,13 @@
+@keyframes glowBorder {
+    0%, 100% {
+      border-color: rgba(255, 255, 255, 0.4);
+    }
+    50% {
+      border-color: rgba(255, 255, 255, 1);
+    }
+  }
+  
+  .animate-glow {
+    animation: glowBorder 5s linear infinite;
+  }
+  

@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint . --ext js --report-unused-disable-directives --max-warnings 0",
+    "lint-fix": "eslint . --ext js --report-unused-disable-directives --max-warnings 0 --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@getbrevo/brevo": "^1.0.1",
+    "@google-ai/generativelanguage": "^2.0.0",
+    "@octokit/graphql": "^7.0.2",
+    "cheerio": "^1.0.0-rc.12",
+    "cloudinary": "^1.41.0",
+    "cors": "^2.8.5",
+    "discord.js": "^14.13.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "https": "^1.0.0",
+    "mongoose": "^7.4.1",
+    "octokit": "^3.1.2"
+  },
+  "devDependencies": {
+    "@stylistic/eslint-plugin": "^1.5.1",
+    "eslint": "^8.56.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.4.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "nodemon": "^3.0.1"
+  }
+}

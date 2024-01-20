@@ -1,0 +1,20 @@
+{
+  "name": "find-repo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saanvi26/find-repo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Saanvi26/find-repo/issues"
+  },
+  "homepage": "https://github.com/Saanvi26/find-repo#readme"
+}
