@@ -32,7 +32,7 @@ const issueAI = async (issue, readme = null) => {
   console.log("----------------------------------------")
   console.log(issue);
 
-  let prompt = `You have an issue with title : ${issue.title}. Read the above string and then write a short description in about a paragraph of the issue in markdown format and be accurate. Don't add contributors or any other information. Just write a short description of the issue. Don't add any installation steps or anything. Strictly only description. If there is a link, then include them together at the end using points. In markdown, add bullet to links`;
+  let prompt = `At first add 3 steps for open source contributors begineer. You have an issue with title : ${issue.title}. Read the above string and then write a short description of the issue in markdown format and be accurate. Don't add contributors or any other information. Just write a short description of the issue. Don't add any installation steps or anything. Strictly only description. If there is a link, then include them together at the end using points. In markdown, add bullet to links`;
   if (issue.labels) {
     prompt += `The labels of the issue are ${issue.labels.join(", ")}.`;
   }
